@@ -1,15 +1,15 @@
 language: python
 python:
- - "2.7"
+  - "2.7"
 
 install:
- - make deps
+  - make deps
 
 script:
- - make test
+  - make test
 
- after succes:
-- make docker_build
+after succes:
+  - make docker_build
 
 deploy:
   provider: heroku
