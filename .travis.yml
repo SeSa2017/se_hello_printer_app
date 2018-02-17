@@ -10,3 +10,8 @@ script:
 
  after succes:
 - make docker_build
+
+deploy:
+  provider: heroku
+  app: desolate-ravine-58653
+  api_key: ${HEROKU_API_KEY}
