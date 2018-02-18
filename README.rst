@@ -83,7 +83,7 @@ Materiały
 - https://virtualenvwrapper.readthedocs.io/en/latest/
 
 .. image:: https://app.statuscake.com/button/index.php?Track=BHFaM4E3BY&Days=1&Design=1
-    :target: htps://www.statuscake.com
+    :target: https://www.statuscake.com
    
 .. image:: https://travis-ci.org/SeSa2017/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/SeSa2017/se_hello_printer_app
