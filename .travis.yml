@@ -6,7 +6,11 @@ install:
   - make deps
 
 script:
+  - #< tu lintujemy
   - make test
+  - make docker build
+  - make docker run
+  - sleep 3: make test_api#TODO:test api 3 razy sie podlaczyc, za kazdym razem sleep 0.5s
 
 after succes:
   - make docker_build
